@@ -8,10 +8,16 @@ body {
 	text-align: center;
 }
 
-.info2 {
-	text-align: center;
-}
 
-h1{
-	text-align: center;
+table {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    width: 90%;
+  }
+
+#task-abstraction {
+	display: flex;
+	flex-direction: row;
 }
