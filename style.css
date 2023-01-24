@@ -1,76 +1,92 @@
+/*Makes the font style of the body 'Arial'*/
 body {
 	font-family: Arial;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
+/*Center aligns the info class*/
 .info {
 	text-align: center;
 }
 
+/*Styles the table so the columns are left, center, and right aligned.*/
+/*Also combines the blue header instead of having 3 separated blue segments.*/
 table {
-    border: 1px solid;
     margin-left: auto;
     margin-right: auto;
     height: 90%;
     width: 90%;
+    border-collapse: collapse;
 }
 
+/*Makes the headers of the table light blue*/
+.header {
+    background-color: lightblue;
+}
+
+/*Makes a row line after each row of the table*/
+th, td {
+  border-bottom: 1px solid grey;
+}
+
+/*Spaces the 2 images and its high, medium, and low actions (and target) next to each other
+instead of on top of each other*/
 #task-abstraction {
 	display: flex;
     justify-content: space-around;
 }
 
+
+/*Makes sure the 2 images do not get morphed when changing the size of the screen
+ and aligns the text below the images without going over the shapes*/
 .task-abstraction-columns {
     flex: 1;
     text-align: center;
     align-self: center;
 }
 
+/*Aligns the text to the left border of its corresponding image and makes the font
+color blue*/
 .task-abstraction-paragraph {
     text-align: left; 
-  color: blue; 
+    color: blue; 
 }
 
-.header {
-    background-color: lightblue;
+/*Makes the 2 images fit the size of the screen*/
+img {
+    height: 100%;
+    width: 100%;
 }
 
+/*Gives the circle 50% opacity and makes the filled in color green*/
 circle {
     opacity: 50%;
     fill: green;
 }
 
+/*When hovering over the circle, gives the circle a border*/
 circle:hover {
     stroke: black;
     stroke-width: 3;
 }
 
+/*Gives the square a black border and makes the filled in color royal blue*/
 rect {
     stroke: black;
     stroke-width: 3;
     fill: royalblue;
 }
 
+/*When hovering over the square, makes the color turn hot pink and gives it a
+grey border*/
 rect:hover {
     fill: hotpink;
     stroke: grey;
     stroke-width: 3;
 }
 
+/*Makes the shape evenly spaced based on the size of the page and center aligned*/
 #decoration {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-img {
-    height: 100%;
-    width: 100%;
 }

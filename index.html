@@ -1,3 +1,4 @@
+<!--Makes the html document-->
 <!DOCTYPE html>
 <html> 
 
@@ -16,22 +17,26 @@
             <!--The header for the 1st table-->
             <h1 class = "info"> Dataset Types </h1>
             <table>
+                <!--The headers for each column of the table-->
                 <tr class="header">
-                    <th> Data </th>*/
+                    <th> Data </th>
                     <th> Link </th>
                     <th> Dataset Type </th>
                 </tr> 
                 <tr>
+                    <!--The data, link, and dataset type description of the airport.csv-->
                     <td> Airports.csv </td>
                     <td> <a href="data/Airports.csv">link</a> </td>
                     <td> Table </td>
                 </tr>
                 <tr> 
+                    <!--The data, link, and dataset type description of the Google-Web.txt-->
                     <td> Google-Web.txt </td>
                     <td> <a href="data/Google-Web.txt">link</a> </td>
                     <td> Network </td>
                 </tr>
                 <tr>
+                    <!--The data, link, and dataset type description of the UFO.csv-->
                     <td> UFO.csv </td>
                     <td> <a href="data/UFO.csv">link</a> </td>
                     <td> Table </td>
@@ -102,63 +107,82 @@
                 </ul>
     </div> 
 
-    
+    <!--Starts the new section labeled 'Task Abstraction'-->
     <h1 class = "info"> Task Abstraction </h1>
 
     <div id = "task-abstraction">
         <div class = "task-abstraction-columns">
+            <!--Places the image onto the webpage-->
             <img src="img/vis1.png">
+            <!--Lists the high level action-->
             <p class = "task-abstraction-paragraph">
                 High-level Action: Consume (Discover) - a display of the maximum temperatures in Vancouver from 1979-2021
             </p>
+            <!--Lists the medium level action-->
             <p class = "task-abstraction-paragraph">
                 Medium-level Action: Search (Lookup) - looking at the previous 3 days' maximum temperature in Vancouver
             </p>
+            <!--Lists the low level action-->
             <p class = "task-abstraction-paragraph">
                 Low-level Action: Query (Compare) - comparing the last 3 day's data to see its significance
             </p>
+            <!--Lists the target-->
             <p class = "task-abstraction-paragraph">
                 Target: All data (Trends) - seeing the changes in temperatures over the years and if the previous 3 days fit into this trend
             </p>
         </div>
 
         <div class = "task-abstraction-columns">
+            <!--Places the second image onto the webpage-->
             <img src="img/vis2.png">
+            <!--Lists the high level action-->
             <p class = "task-abstraction-paragraph">
                 High-level Action: Consume (Present) - presenting days that temperatures were 20 degrees above normal in Seattle and Portland in a user friendly manner
             </p>
+            <!--Lists the medium level action-->
             <p class = "task-abstraction-paragraph">
                 Medium-level Action: Search (Browse) - easily shows the number of days in Seattle and Porland where the average temperature was 20 degrees fahrenheit above normal
             </p>
+            <!--Lists the low level action-->
             <p class = "task-abstraction-paragraph">
                 Low-level Action: Query (Compare) - comparing the temperature outlook between Seattle and Portland
             </p>
+            <!--Lists the target-->
             <p class = "task-abstraction-paragraph">
                 Target: Attributes (One: Distribution) - user can easily identify the distribution of alarmingly high tempertures over the years
             </p>
         </div>
     </div>
+
+    <!--Places 3 circles and 2 squares below the descriptions of the actions-->
     <div id="decoration">
+            <!--Circle-->
             <svg width="100" height="100">
                 <circle cx="50" cy="50" r="40"/>
             </svg>
+            <!--Square-->
             <svg width="100" height="100">
                 <rect width="100" height="100">
             </svg>
+            <!--Circle-->
             <svg width="100" height="100">
                 <circle cx="50" cy="50" r="40"/>
             </svg>
+            <!--Square-->
             <svg width="100" height="100">
                 <rect width="100" height="100">
             </svg>
+            <!--Circle-->
             <svg width="100" height="100">
                 <circle cx="50" cy="50" r="40"/>
             </svg>
     </div>
 
     <div>
-        <h2>Acknowledgements</h2>
+        <!--Makes an acknowledgement header-->
+        <h2 class="info"> Acknowledgements</h2>
             <ul>
+                <!--All the resources we used in order to complete out assignment-->
                 <li>https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container </li>
                 <li>https://www.w3schools.com/html/html_tables.asp</li>
                 <li>https://www.w3schools.com/graphics/svg_circle.asp</li>
