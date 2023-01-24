@@ -2,12 +2,17 @@ body {
 	font-family: Arial;
 }
 
+h1 {
+    text-align: center;
+}
 
+h2 {
+    text-align: center;
+}
 
 .info {
 	text-align: center;
 }
-
 
 table {
     border: 1px solid;
@@ -15,10 +20,11 @@ table {
     margin-right: auto;
     height: 90%;
     width: 90%;
-  }
+}
 
 #task-abstraction {
 	display: flex;
+    justify-content: space-around;
 }
 
 .task-abstraction-columns {
@@ -30,4 +36,41 @@ table {
 .task-abstraction-paragraph {
     text-align: left; 
   color: blue; 
+}
+
+.header {
+    background-color: lightblue;
+}
+
+circle {
+    opacity: 50%;
+    fill: green;
+}
+
+circle:hover {
+    stroke: black;
+    stroke-width: 3;
+}
+
+rect {
+    stroke: black;
+    stroke-width: 3;
+    fill: royalblue;
+}
+
+rect:hover {
+    fill: hotpink;
+    stroke: grey;
+    stroke-width: 3;
+}
+
+#decoration {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
