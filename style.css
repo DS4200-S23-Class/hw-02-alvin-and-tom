@@ -19,5 +19,15 @@ table {
 
 #task-abstraction {
 	display: flex;
-	flex-direction: row;
+}
+
+.task-abstraction-columns {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+}
+
+.task-abstraction-paragraph {
+    text-align: left; 
+  color: blue; 
 }
